@@ -2,9 +2,6 @@ const ci = require('miniprogram-ci');
 const path = require('path');
 const config = require('../config/config')
 const router = require('koa-router')();
-const fs = require('fs')
-const redis = require('../config/redis')
-const dayjs = require('dayjs')
 // 叮叮机器人sdk
 const Robot = require('dingtalk-robot-sdk');
 const {
