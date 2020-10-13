@@ -11,41 +11,25 @@
     ]
   },
   "dependencies": {
-    "@babel/generator": "^7.11.6",
-    "@babel/parser": "^7.11.5",
-    "@babel/traverse": "^7.11.5",
-    "alipay-dev": "^0.4.9",
-    "axios": "^0.19.2",
     "child_process": "^1.0.2",
     "core-js": "^3.6.5",
     "crypto": "^1.0.1",
     "dayjs": "^1.8.35",
     "dingtalk-robot-sdk": "^1.1.0",
-    "element-ui": "^2.13.2",
     "fs": "^0.0.1-security",
-    "ioredis": "^4.17.3",
     "koa": "^2.13.0",
     "koa-bodyparser": "^4.3.0",
     "koa-router": "^9.1.0",
     "koa2-cors": "^2.0.6",
     "koa2-formidable": "^1.0.2",
-    "less": "^3.12.2",
-    "less-loader": "^7.0.1",
     "miniprogram-ci": "^1.0.57",
     "nodemon": "^2.0.4",
     "path": "^0.12.7",
-    "qiniu": "^7.3.2",
-    "vue": "^2.6.11",
-    "vue-router": "^3.4.3"
+    "qiniu": "^7.3.2"
   },
   "devDependencies": {
-    "@vue/cli-plugin-babel": "^4.5.0",
-    "@vue/cli-plugin-eslint": "^4.5.0",
-    "@vue/cli-service": "^4.5.0",
     "babel-eslint": "^10.1.0",
-    "eslint": "^6.7.2",
-    "eslint-plugin-vue": "^6.2.2",
-    "vue-template-compiler": "^2.6.11"
+    "eslint": "^6.7.2"
   },
   "eslintConfig": {
     "root": true,

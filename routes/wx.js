@@ -28,11 +28,11 @@ router.post('/upload', async ctx => {
                 appid: config.wx.appid,
                 type: 'miniProgram',
                 projectPath: uploadProject,
-                privateKeyPath: path.join(process.cwd(), 'node/wx.key'),
+                privateKeyPath: path.join(process.cwd(), 'wx.key'),
                 ignores: ['node_modules/**/*'],
             })
             const year = new Date().getFullYear() - 2000
-            let month = new Date().getMonth() + 1
+            const month = new Date().getMonth() + 1
             const day = new Date().getDate()
             // 根据年月日当版本号
             const version = '2.5.' + year + (month < 10 ? '0' + month : month) + (day < 10 ? '0' + day : day);
